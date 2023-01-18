@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="Komentuoti klausimai">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/WhatToDo.java" afterDir="false" />
+    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="whatToDo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,19 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1674073146704</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="whatToDo">
+      <created>1674073624958</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1674073624958</updated>
+    </task>
+    <task id="LOCAL−00004" summary="whatToDo">
+      <created>1674073812593</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1674073812593</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pomVersion" />
     <MESSAGE value="Komentuoti klausimai" />
-    <option name="LAST_COMMIT_MESSAGE" value="Komentuoti klausimai" />
+    <MESSAGE value="whatToDo" />
+    <option name="LAST_COMMIT_MESSAGE" value="whatToDo" />
   </component>
 </project>
