@@ -1,4 +1,6 @@
-package lt.code.academy;public class Main {
+package lt.code.academy;
+
+public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }
