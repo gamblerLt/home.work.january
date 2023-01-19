@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="QuestionNoMapStage">
+    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="QuestionListWorks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/StudentResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questionsAndCorrectAnswers.json" beforeDir="false" afterPath="$PROJECT_DIR$/questionsAndCorrectAnswers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CreateFilesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CreateFilesMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/WhatToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/WhatToDo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +138,13 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1674133444533</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="QuestionListWorks">
+      <created>1674134493345</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1674134493345</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +164,7 @@
     <MESSAGE value="whatToDo" />
     <MESSAGE value="menuStage1" />
     <MESSAGE value="QuestionNoMapStage" />
-    <option name="LAST_COMMIT_MESSAGE" value="QuestionNoMapStage" />
+    <MESSAGE value="QuestionListWorks" />
+    <option name="LAST_COMMIT_MESSAGE" value="QuestionListWorks" />
   </component>
 </project>

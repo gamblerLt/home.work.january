@@ -4,8 +4,11 @@ public class WhatToDo {
 
     /*
     *  - progrma nuskaito 2 failus:
+    *
     *  1 - vertinimas
+    *
     *  2 - teisingi atsakymai
+    *
     * - rezultatai surasomi i tracia faila json formate
     *
     * - deserializuojant "final"gali nebuti
