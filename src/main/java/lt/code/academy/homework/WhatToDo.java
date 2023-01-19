@@ -3,6 +3,8 @@ package lt.code.academy.homework;
 public class WhatToDo {
 
     /*
+    https://github.com/andriusbaltrunas/JAVAUA1-2022.11.14/tree/main/OOP/FirstProject/src/lt/codeacademy/first/project/collection
+
     *  - progrma nuskaito 2 failus:
     *
     *  1 - vertinimas
