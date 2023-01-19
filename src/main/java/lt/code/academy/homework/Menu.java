@@ -31,9 +31,9 @@ public class Menu {
 
     private void menu(){
         System.out.println("""
-                1. - Testas: daugyba
-                2. - Testas: sudėtis
-                3. - Įrašyti atsakymus
+                1. - Testas: daugyba.
+                2. - Testas: sudėtis.
+                3. - Įrašyti atsakymus.
                 4. - Baigti programą.
                 """);
     }

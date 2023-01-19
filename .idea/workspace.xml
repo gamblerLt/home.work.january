@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="QuestionListWorks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/StudentResponse.java" afterDir="false" />
+    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="ResponseJ">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/ResponseMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/WhatToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/WhatToDo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <recent name="lt.code.academy.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreateFilesMain">
+  <component name="RunManager" selected="Application.ResponseMain">
     <configuration name="CreateFilesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.CreateFilesMain" />
       <module name="home.work.january" />
@@ -86,8 +87,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ResponseMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.ResponseMain" />
+      <module name="home.work.january" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.code.academy.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ResponseMain" />
         <item itemvalue="Application.CreateFilesMain" />
         <item itemvalue="Application.Menu" />
       </list>
@@ -144,7 +159,13 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1674134493345</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="ResponseJ">
+      <created>1674136498123</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1674136498123</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +186,7 @@
     <MESSAGE value="menuStage1" />
     <MESSAGE value="QuestionNoMapStage" />
     <MESSAGE value="QuestionListWorks" />
-    <option name="LAST_COMMIT_MESSAGE" value="QuestionListWorks" />
+    <MESSAGE value="ResponseJ" />
+    <option name="LAST_COMMIT_MESSAGE" value="ResponseJ" />
   </component>
 </project>
