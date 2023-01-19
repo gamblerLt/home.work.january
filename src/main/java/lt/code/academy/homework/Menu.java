@@ -1,6 +1,33 @@
 package lt.code.academy.homework;
 
+import java.util.Scanner;
+
 public class Menu {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("\nPasirinkite vieną iš meniu punktų:\n");
+
+        Menu menu = new Menu();
+
+        String menuAction;
+        do {
+            menu.menu();
+            menuAction = scanner.nextLine();
+
+            menu.selectmenuAction(menuAction, scanner);
+        }while(!menuAction.equals("4"));
+    }
+
+    private void selectmenuAction(String menuAction, Scanner scanner) {
+        switch (menuAction) {
+            case "1" -> System.out.println("Pirmas");
+            case "2" -> System.out.println("Antras");
+            case "3" -> System.out.println("Trcias");
+            case "4" -> System.out.println("Darbo pabaiga");
+            default -> System.out.println("Šis veiksmas nėra numatytas.");
+        }
+    }
 
     private void menu(){
         System.out.println("""
@@ -9,9 +36,7 @@ public class Menu {
                 3. - Įrašyti atsakymus
                 4. - Baigti programą.
                 """);
-
     }
-
 }
 /*public class TaskFiveAn {
     public static void main(String[] args) {
