@@ -2,6 +2,8 @@ package lt.code.academy.homework;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class CreateFilesMain {
@@ -26,13 +28,10 @@ public class CreateFilesMain {
         } catch (IOException e) {
             System.out.println("Turime problemų su failu: " + e.getMessage());
         }
+        //irasyti keleta objektu i faila
         try {
-            mapper.writeValue(file, createQuOne);
-            mapper.writeValue(file, createQuTwo);
-            mapper.writeValue(file, createQuThree);
-            mapper.writeValue(file, createQuFour);
-            mapper.writeValue(file, createQuFive);
-            
+            mapper.writeValue(file, List.of(createQuOne, createQuTwo,createQuThree, createQuFour, createQuFive));
+
         } catch (IOException e) {
 
             System.out.println("Turime problemų su įrašymu: " + e.getMessage());
