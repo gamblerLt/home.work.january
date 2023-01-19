@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="whatToDo">
+    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="menuStage1">
+      <change afterPath="$PROJECT_DIR$/questionsAndCorrectAnswers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CreateFilesMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Question.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +29,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -47,7 +56,25 @@
     "last_opened_file_path": "C:/Users/Kompiuteris/Documents/GitHub/WurkHome/home.work.january"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="lt.code.academy.homework" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CreateFilesMain">
+    <configuration name="CreateFilesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.CreateFilesMain" />
+      <module name="home.work.january" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.code.academy.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.Menu" />
       <module name="home.work.january" />
@@ -63,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreateFilesMain" />
         <item itemvalue="Application.Menu" />
       </list>
     </recent_temporary>
@@ -100,7 +128,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1674073812593</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="menuStage1">
+      <created>1674113480254</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1674113480254</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +152,7 @@
     <MESSAGE value="pomVersion" />
     <MESSAGE value="Komentuoti klausimai" />
     <MESSAGE value="whatToDo" />
-    <option name="LAST_COMMIT_MESSAGE" value="whatToDo" />
+    <MESSAGE value="menuStage1" />
+    <option name="LAST_COMMIT_MESSAGE" value="menuStage1" />
   </component>
 </project>
