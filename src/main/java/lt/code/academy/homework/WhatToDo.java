@@ -5,6 +5,8 @@ public class WhatToDo {
     /*
     https://github.com/andriusbaltrunas/JAVAUA1-2022.11.14/tree/main/OOP/FirstProject/src/lt/codeacademy/first/project/collection
 
+    login: https://github.com/andriusbaltrunas/JAVAUA1-2022.11.14/tree/bd36b3aa54a974d882eb1f104a00814ed02e2063/OOP/console_login/src/main/java/lt/code/academy
+
     *  - progrma nuskaito 2 failus:
     *
     *  1 - vertinimas
