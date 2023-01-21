@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="registration|jsonFilenotWurkin">
+    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="registration|jsonFilenotWurkinNot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Login.java" afterDir="false" />
     </list>
@@ -113,7 +113,13 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1674301393176</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="registration|jsonFilenotWurkinNot">
+      <created>1674302703546</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1674302703546</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +139,7 @@
     <MESSAGE value="whatToDo" />
     <MESSAGE value="registration" />
     <MESSAGE value="registration|jsonFilenotWurkin" />
-    <option name="LAST_COMMIT_MESSAGE" value="registration|jsonFilenotWurkin" />
+    <MESSAGE value="registration|jsonFilenotWurkinNot" />
+    <option name="LAST_COMMIT_MESSAGE" value="registration|jsonFilenotWurkinNot" />
   </component>
 </project>

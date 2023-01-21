@@ -41,7 +41,7 @@ public class Login {
         System.out.println("Įveskite savostudento numerį");
         int studentNumber = scanner.nextInt();
         LoginStudentRec loginStudentRec = loginStudentRecs.get(studentNumber);
-        if(studentNumber != 0) {
+        if(studentNumber != studentNumber) { //cia kazkas neg gal true reikia
             System.out.println("Tokio studento numerio neradome. Registruokitės");
             return;
         }
@@ -65,7 +65,7 @@ public class Login {
             if(loginStudentRec !=null) {
                 System.out.println("Toks vartotojas jau egzistuoja!");
             }
-        }while (loginStudentRec != null);
+        }while (loginStudentRec == null);
         System.out.println("Įveskite vardą");
         String name = scanner.nextLine();
         System.out.println("Įveskite pavardę");
