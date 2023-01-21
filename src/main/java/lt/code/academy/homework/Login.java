@@ -37,7 +37,7 @@ public class Login {
         System.out.println("Įveskite savostudento numerį");
         int studentNumber = scanner.nextInt();
         LoginStudentRec loginStudentRec = loginStudentRecs.get(studentNumber);
-        if(studentNumber == null) {
+        if(studentNumber != 0) {
             System.out.println("Tokio studento numerio neradome. Registruokitės");
             return;
         }
