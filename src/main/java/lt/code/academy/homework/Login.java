@@ -26,9 +26,13 @@ public class Login {
     }
     private void studentSelect(Scanner scanner, String action) {
         switch (action) {
-            case "1" -> System.out.println("registracija");
-            case "2" -> System.out.println("Prisijungimas");
-            case "3" -> System.out.println("Iseiti");
+            case "1" -> registration(scanner);
+            case "2" -> loginStudent(scanner);
+            case "3" -> {
+                loginWrRd.storeStudents(loginStudentRecs);
+                System.out.println("KAs cia dabar");
+
+            }
             default -> System.out.println("Tokio pasirinkimo nėra");
         }
     }
