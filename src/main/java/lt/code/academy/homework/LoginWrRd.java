@@ -6,8 +6,8 @@ import java.util.Map;
 
 public class LoginWrRd {
     private static final String FILE_NAME = "students.json";
-    Map<Integer, LoginStudentRec> getLgrStudents() {
-        Map<Integer, LoginStudentRec> lgrStudents = new HashMap<>();
+    Map<String, LoginStudentRec> getLgrStudents() {
+        Map<String, LoginStudentRec> lgrStudents = new HashMap<>();
         try (ObjectInput obIn = new ObjectInputStream(new FileInputStream(FILE_NAME))) {
             while (true) {
                 LoginStudentRec loginStudentRec = (LoginStudentRec) obIn.readObject();
@@ -22,7 +22,7 @@ public class LoginWrRd {
         return lgrStudents;
     }
 
-    void storeStudents(Map<Integer, LoginStudentRec> loginStudentRec) {
+    void storeStudents(Map<String, LoginStudentRec> lgrStudents) {
         try(ObjectOutput objectOutput = new ObjectOutputStream(new FileOutputStream(FILE_NAME))) {
 
         }catch (IOException e) {

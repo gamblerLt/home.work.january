@@ -2,12 +2,13 @@ package lt.code.academy.homework;
 
 import org.apache.commons.codec.digest.DigestUtils;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Scanner;
 
 
 public class Login {
-    private Map<Integer, LoginStudentRec> loginStudentRecs; //??
-    private LoginWrRd loginWrRd;
+    private final Map<String, LoginStudentRec> loginStudentRecs; //??
+    private final LoginWrRd loginWrRd;
 
     public Login() {
         loginWrRd = new LoginWrRd();
@@ -38,10 +39,10 @@ public class Login {
     }
     //case2
     private void loginStudent(Scanner scanner)  {
-        System.out.println("Įveskite savostudento numerį");
-        int studentNumber = scanner.nextInt();
+        System.out.println("Įveskite savo studento numerį");
+        String studentNumber = scanner.nextLine();
         LoginStudentRec loginStudentRec = loginStudentRecs.get(studentNumber);
-        if(studentNumber != studentNumber) { //cia kazkas neg gal true reikia
+        if(studentNumber == null) {
             System.out.println("Tokio studento numerio neradome. Registruokitės");
             return;
         }
@@ -52,20 +53,21 @@ public class Login {
             System.out.println("Neteisingas slaptažodis, bandykite dar kartą: ");
             return;
         }
-                System.out.println("Jūs sėkmingai prisingėte kaip "); // + name
+                System.out.println("Jūs sėkmingai prisingėte kaip " + studentNumber); // + name
     }
     private  void registration(Scanner scanner) {
         LoginStudentRec loginStudentRec;
-        int studentNumber;
+        String studentNumber;
 
         do {
             System.out.println("Įveskite studento numerį: ");
-            studentNumber = scanner.nextInt();
+            studentNumber = scanner.nextLine();
             loginStudentRec = loginStudentRecs.get(studentNumber);
             if(loginStudentRec !=null) {
                 System.out.println("Toks vartotojas jau egzistuoja!");
             }
-        }while (loginStudentRec == null);
+        }while (loginStudentRec != null);
+
         System.out.println("Įveskite vardą");
         String name = scanner.nextLine();
         System.out.println("Įveskite pavardę");
@@ -80,7 +82,8 @@ public class Login {
             repeatPassword = scanner.nextLine();
         }while (!repeatPassword.equals(password));
 
-        loginStudentRec = new LoginStudentRec(studentNumber, name, surname, DigestUtils.sha512Hex(password));
+        new LoginStudentRec(studentNumber, name, surname, DigestUtils.sha512Hex(password));
+        loginStudentRecs.put(studentNumber, loginStudentRec);
     }
     private void regMenu() {
         System.out.println("""

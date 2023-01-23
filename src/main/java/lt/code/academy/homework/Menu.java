@@ -16,25 +16,27 @@ public class Menu {
             menuAction = scanner.nextLine();
 
             menu.selectmenuAction(menuAction, scanner);
-        }while(!menuAction.equals("4"));
+        }while(!menuAction.equals("5"));
     }
 
     private void selectmenuAction(String menuAction, Scanner scanner) {
         switch (menuAction) {
-            case "1" -> System.out.println("Pirmas");
-            case "2" -> System.out.println("Antras");
-            case "3" -> System.out.println("Trcias");
-            case "4" -> System.out.println("Darbo pabaiga");
+            case "1" -> System.out.println("Iveskite studento numerį");
+            case "2" -> System.out.println("Įveskite vardą");
+            case "3" -> System.out.println("Įveskite pavardę");
+            case "4" -> System.out.println("Pradėti testą");
+            case "5" -> System.out.println("Rezultatas");
             default -> System.out.println("Šis veiksmas nėra numatytas.");
         }
     }
 
     private void menu(){
         System.out.println("""
-                1. - Testas: daugyba.
-                2. - Testas: sudėtis.
-                3. - Įrašyti atsakymus.
-                4. - Baigti programą.
+                1. - Įveskite studento numetį
+                2. - Įveskite vardą
+                3. - Įveskite pavardę
+                4. - Pradėti testą
+                5. - Rezultatas
                 """);
     }
 }
