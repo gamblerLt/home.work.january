@@ -1,4 +1,4 @@
-package lt.code.academy.homework;
+/*package lt.code.academy.homework;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -18,14 +18,16 @@ public class ReadLines {
 
         }catch (IOException e) {
             System.out.println("Nenuskaiciau: " + e.getMessage());
-        }
+        }*/
 
 //public record MenuRec (String studentNumber, String name, String surname) implements Serializable {
 //}
 
 
+/*
     }
 }
+*/
 
 /*
 JSONParser parser = new JSONParser();
