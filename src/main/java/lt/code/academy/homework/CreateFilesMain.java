@@ -12,9 +12,11 @@ public class CreateFilesMain {
 
     private static final String QUESTION_FILE_NAME = "questions.json";
     public static void main(String[] args) {
+
+
         ObjectMapper mapper = new ObjectMapper();
-        //CreateFilesMain createFilesMain = new CreateFilesMain();
-        //createFilesMain.write();
+        CreateFilesMain createFilesMain = new CreateFilesMain();
+        createFilesMain.readQuestion();
         //createFilesMain.read();
         Question createQuOne = new Question(1, "2 * 1 = ", 2);
         Question createQuTwo = new Question(2, "3 * 3 = ", 9);
@@ -42,7 +44,11 @@ public class CreateFilesMain {
         }
     }
 
-    private void readQuestion() {
+/*    private static void readQuestion() {
+    }*/
+
+    private static void readQuestion() {
+
         try (BufferedReader br = new BufferedReader(new FileReader(QUESTION_FILE_NAME))) {
             //nuskaitomas failas:
             String line;
