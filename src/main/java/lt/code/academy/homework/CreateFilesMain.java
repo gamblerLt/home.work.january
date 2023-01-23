@@ -54,29 +54,5 @@ public class CreateFilesMain {
             System.out.println("Nuskaitymas iš failo: " + e.getMessage());
         }
     }
-    /*private void filUpPersons() {
-        try (BufferedReader br = new BufferedReader(new FileReader(PERSON_FILE_NAME))) {
-            //nuskaitome faila:
-            String line;
-            while ((line = br.readLine()) != null) {
-                if (line.startsWith(ID)) {
-                    continue;
-                }
-
-                String[] splits = line.split(REGEX);
-                if (splits.length < 3) {
-                    continue;
-                }
-                int id = Integer.parseInt(splits[0]);
-                if (persons.get(id) == null) {
-
-                    persons.put(id, new Person(id, splits[1].trim(), splits[2].trim()));
-                }
-            }
-
-        } catch (IOException e) {
-            System.out.println("Negaliu skaityti failo" + PERSON_FILE_NAME + e.getMessage());
-        }
-    }*/
 
 }

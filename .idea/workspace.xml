@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="RegNeveikiaAtsakymuNenuskaito">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questionsAndCorrectAnswers.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CreateFilesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CreateFilesMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/QuestionShow.java" beforeDir="false" />
+    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="NenuskaitoFailo">
+      <change afterPath="$PROJECT_DIR$/questions.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/Kompiuteris/Documents/GitHub/WurkHome/starisborn"
@@ -199,7 +197,13 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1674476882049</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="NenuskaitoFailo">
+      <created>1674479328292</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1674479328292</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +218,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="pomVersion" />
     <MESSAGE value="Komentuoti klausimai" />
     <MESSAGE value="whatToDo" />
@@ -222,7 +227,8 @@
     <MESSAGE value="QuestionListWorks" />
     <MESSAGE value="ResponseJ" />
     <MESSAGE value="RegNeveikiaAtsakymuNenuskaito" />
-    <option name="LAST_COMMIT_MESSAGE" value="RegNeveikiaAtsakymuNenuskaito" />
+    <MESSAGE value="NenuskaitoFailo" />
+    <option name="LAST_COMMIT_MESSAGE" value="NenuskaitoFailo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
