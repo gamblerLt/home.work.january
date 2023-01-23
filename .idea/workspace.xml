@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="Login link added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/MenuRec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/QuestionShow.java" afterDir="false" />
+    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="RegNeveikiaAtsakymuNenuskaito">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/LoginStudentRec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/LoginStudentRec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/LoginWrRd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/LoginWrRd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/ResponseMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/ResponseMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questionsAndCorrectAnswers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CreateFilesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CreateFilesMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/QuestionShow.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,19 +48,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kompiuteris/Documents/GitHub/WurkHome/home.work.january&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Kompiuteris/Documents/GitHub/WurkHome/starisborn"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="lt.code.academy.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuestionShow">
+  <component name="RunManager" selected="Application.CreateFilesMain">
     <configuration name="CreateFilesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.CreateFilesMain" />
       <module name="home.work.january" />
@@ -132,8 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuestionShow" />
         <item itemvalue="Application.CreateFilesMain" />
+        <item itemvalue="Application.QuestionShow" />
         <item itemvalue="Application.Menu" />
         <item itemvalue="Application.Login" />
         <item itemvalue="Application.ResponseMain" />
@@ -197,7 +193,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1674136498123</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="RegNeveikiaAtsakymuNenuskaito">
+      <created>1674476882049</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1674476882049</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +221,18 @@
     <MESSAGE value="QuestionNoMapStage" />
     <MESSAGE value="QuestionListWorks" />
     <MESSAGE value="ResponseJ" />
-    <option name="LAST_COMMIT_MESSAGE" value="ResponseJ" />
+    <MESSAGE value="RegNeveikiaAtsakymuNenuskaito" />
+    <option name="LAST_COMMIT_MESSAGE" value="RegNeveikiaAtsakymuNenuskaito" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CreateFilesMain.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
