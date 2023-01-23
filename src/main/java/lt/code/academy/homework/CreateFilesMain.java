@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 
+import com.fasterxml.jackson.core.*;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class CreateFilesMain {
@@ -56,9 +57,9 @@ public class CreateFilesMain {
                 System.out.println(line);
 
             }
-        }catch (IOException e) {
+        } catch (IOException e) {
             System.out.println("Nuskaitymas iš failo: " + e.getMessage());
         }
     }
-
 }
+
