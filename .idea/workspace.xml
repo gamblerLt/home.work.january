@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="44line">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/LoginTest.java" afterDir="false" />
+    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="TestLoginWorks">
+      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/LoginWrRd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/LoginWrRd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/ReadLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/ReadLines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +44,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/HasPe/Documents/GitHub/home.work.january&quot;
@@ -136,7 +135,13 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1674302703546</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="TestLoginWorks">
+      <created>1674491378098</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1674491378098</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,12 +156,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="pomVersion" />
     <MESSAGE value="Komentuoti klausimai" />
     <MESSAGE value="whatToDo" />
     <MESSAGE value="registration" />
     <MESSAGE value="registration|jsonFilenotWurkin" />
     <MESSAGE value="registration|jsonFilenotWurkinNot" />
-    <option name="LAST_COMMIT_MESSAGE" value="registration|jsonFilenotWurkinNot" />
+    <MESSAGE value="TestLoginWorks" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestLoginWorks" />
   </component>
 </project>
