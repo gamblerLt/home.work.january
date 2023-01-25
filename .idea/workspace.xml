@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/files/student_file.json" afterDir="false" />
+    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="IdentOutput?">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/ExamQuestions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/StudentMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/LoginStudentRec.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/LoginTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/LoginWrRd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/LoginWrRd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/StudentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/StudentMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +215,13 @@
       <option name="presentableId" value="LOCAL−00011" />
       <updated>1674637098133</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL−00012" summary="IdentOutput?">
+      <created>1674648028065</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1674648028065</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,7 +248,8 @@
     <MESSAGE value="NenuskaitoFailo" />
     <MESSAGE value="Answers" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="IdentOutput?" />
+    <option name="LAST_COMMIT_MESSAGE" value="IdentOutput?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

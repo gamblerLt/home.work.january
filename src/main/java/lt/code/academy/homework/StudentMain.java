@@ -32,14 +32,14 @@ public class StudentMain {
         object.put("Student number", studNumb);
         object.put("Student name", studName);
         object.put("Student surname", studSurname);
-
+//String stringLine = objectMapper.writeValueAsString(response)
         ObjectMapper mapper = new ObjectMapper();
         mapper.enable(SerializationFeature.INDENT_OUTPUT);
 
         try {
             FileWriter fileWriter = new FileWriter(STUDENT_FILE_NAME);
             fileWriter.write(object.toJSONString());
-            //fileWriter.close();
+            fileWriter.close();
 
             System.out.println("Sėkmingai įrašyra");
         } catch (IOException e) {
@@ -47,7 +47,13 @@ public class StudentMain {
         }
     }
 }
+/*objectMapper.writeValue(file, payment);
 
+		Payment response = objectMapper.readValue(file, Payment.class);
+		System.out.println(response);
+
+		String stringLine = objectMapper.writeValueAsString(response);
+		System.out.println(stringLine);*/
 
 
        /* String line;

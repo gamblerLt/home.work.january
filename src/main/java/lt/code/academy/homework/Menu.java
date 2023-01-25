@@ -32,8 +32,8 @@ public class Menu {
 
     private void menu(){
         System.out.println("""
-                1. - Įveskite studento numetį
-                2. - Įveskite vardą
+                1. - Iveskite savo duomenis
+                2. - Spręskite testą
                 3. - Įveskite pavardę
                 4. - Pradėti testą
                 5. - Rezultatas
