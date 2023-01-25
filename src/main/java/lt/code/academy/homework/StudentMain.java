@@ -1,31 +1,92 @@
-/*
 package lt.code.academy.homework;
 
-import org.apache.commons.codec.digest.DigestUtils;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
+import org.json.simple.JSONObject;
+
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Map;
 import java.util.Scanner;
 
 
-public class Login {
-    private Map<String, LoginStudentRec> loginStudentRecs; //??
-    private LoginWrRd loginWrRd;
+public class StudentMain {
+    private static final String STUDENT_FILE_NAME = "C:\\Users\\Kompiuteris\\Documents\\GitHub\\WurkHome\\home.work.january\\src\\main\\java\\lt\\code\\academy\\homework\\files\\student_file.json";
 
-    public Login() {
-        loginWrRd = new LoginWrRd();
-        loginStudentRecs = loginWrRd.getLgrStudents();
-    }
+
+    private Map<String, Student> students; //??
+
     public static void main(String[] args) {
-        Login login = new Login();
-        Scanner scanner = new Scanner(System.in);
 
-        String line;
+        //StudentMain studentMain = new StudentMain();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Įveskite studento numerį");
+        String studNumb = scanner.nextLine();
+        System.out.println("Įveskite savo vardą");
+        String studName = scanner.nextLine();
+        System.out.println("Įveskite savo pavardę");
+        String studSurname = scanner.nextLine();
+
+        JSONObject object = new JSONObject();
+
+        object.put("Student number", studNumb);
+        object.put("Student name", studName);
+        object.put("Student surname", studSurname);
+
+        ObjectMapper mapper = new ObjectMapper();
+        mapper.enable(SerializationFeature.INDENT_OUTPUT);
+
+        try {
+            FileWriter fileWriter = new FileWriter(STUDENT_FILE_NAME);
+            fileWriter.write(object.toJSONString());
+            //fileWriter.close();
+
+            System.out.println("Sėkmingai įrašyra");
+        } catch (IOException e) {
+            System.out.println("Įrašymo klaida į failą" + STUDENT_FILE_NAME +" " + e.getMessage());
+        }
+    }
+}
+
+
+
+       /* String line;
         do {
             login.regMenu();
             line = scanner.nextLine();
             login.studentSelect(scanner, line);
             }while (!line.equals(3));
+    }*/
+
+    /*public class LoginTest {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Iveskite savo varda");
+        String name = scanner.nextLine();
+
+        JSONObject obj = new JSONObject();
+
+        obj.put("name", name);
+
+        try {
+            FileWriter file = new FileWriter("data.json");
+            file.write(obj.toJSONString());
+            file.close();
+
+            System.out.println("Successfully wrote data to file");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        scanner.close();
     }
-    private void studentSelect(Scanner scanner, String action) {
+
+
+}*/
+
+    /*private void studentSelect(Scanner scanner, String action) {
         switch (action) {
             case "1" -> registration(scanner);
             case "2" -> loginStudent(scanner);
@@ -88,7 +149,7 @@ public class Login {
                 1. Studento registracija
                 2. Prisijungimas
                 3. Baigti darbą
-                """);
+      }          """);
     }
-}
-*/
+}*/
+

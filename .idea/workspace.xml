@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="NenuskaitoFailo">
-      <change afterPath="$PROJECT_DIR$/questions.json" afterDir="false" />
+    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/files/student_file.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/StudentMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/LoginStudentRec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/LoginWrRd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/LoginWrRd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +51,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Kompiuteris/Documents/GitHub/WurkHome/starisborn"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kompiuteris/Documents/GitHub/WurkHome/starisborn&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="lt.code.academy.homework" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kompiuteris\Documents\GitHub\WurkHome\home.work.january\src\main\java\lt\code\academy\homework\files" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.CreateFilesMain">
+  <component name="RunManager" selected="Application.StudentMain">
     <configuration name="CreateFilesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.CreateFilesMain" />
       <module name="home.work.january" />
@@ -111,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResponseMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.ResponseMain" />
+    <configuration name="StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.StudentMain" />
       <module name="home.work.january" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentMain" />
         <item itemvalue="Application.CreateFilesMain" />
         <item itemvalue="Application.QuestionShow" />
         <item itemvalue="Application.Menu" />
         <item itemvalue="Application.Login" />
-        <item itemvalue="Application.ResponseMain" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +212,13 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1674479328292</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1674637098133</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1674637098133</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,7 +243,9 @@
     <MESSAGE value="ResponseJ" />
     <MESSAGE value="RegNeveikiaAtsakymuNenuskaito" />
     <MESSAGE value="NenuskaitoFailo" />
-    <option name="LAST_COMMIT_MESSAGE" value="NenuskaitoFailo" />
+    <MESSAGE value="Answers" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

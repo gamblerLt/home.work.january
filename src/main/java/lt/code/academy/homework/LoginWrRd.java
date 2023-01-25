@@ -1,3 +1,4 @@
+/*
 package lt.code.academy.homework;
 
 import java.io.*;
@@ -32,3 +33,4 @@ public class LoginWrRd {
 
 }
 
+*/
