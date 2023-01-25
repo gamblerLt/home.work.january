@@ -1,4 +1,4 @@
-package lt.code.academy.homework;
+/*package lt.code.academy.homework;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -24,8 +24,10 @@ public class ReadLines {
 //}
 
 
+/*
     }
 }
+*/
 
 /*
 JSONParser parser = new JSONParser();
