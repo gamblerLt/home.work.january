@@ -8,7 +8,7 @@ import java.io.IOException;
 public class ReadLines {
 
     public static void main(String[] args) {
-        JSONParser parser = new JSONParser();
+    /*    JSONParser parser = new JSONParser();
         try {
             Object obj = parser.parse(new FileReader("questions.json"));
             JSONObject jsonObject = new (JSONObject) obj;
@@ -18,7 +18,7 @@ public class ReadLines {
 
         }catch (IOException e) {
             System.out.println("Nenuskaiciau: " + e.getMessage());
-        }
+        }*/
 
 //public record MenuRec (String studentNumber, String name, String surname) implements Serializable {
 //}
