@@ -3,18 +3,34 @@ package lt.code.academy.homework;
 public class Question {
     private int id;
     private String question;
-    private int correctAnswer;
+    private int studentAnswerInputOne;
+    private int studentAnswerInputTwo;
+    private int studentAnswerInputThree;
+    private int studentAnswerInputFour;
+    private int studentAnswerInputFive;
+    private int studentAnswerInputSix;
+    private int studentAnswerInputSeven;
+    private int studentAnswerInputEight;
+    private int studentAnswerInputNine;
+    private int studentAnswerInputTen;
 
+    public Question(int id, String question, int studentAnswerInputOne, int studentAnswerInputTwo,
+                    int studentAnswerInputThree, int studentAnswerInputFour, int studentAnswerInputFive,
+                    int studentAnswerInputSix, int studentAnswerInputSeven, int studentAnswerInputEight,
+                    int studentAnswerInputNine, int studentAnswerInputTen) {
 
-
-
-    public Question(int id, String question, int correctAnswer) {
         this.id = id;
         this.question = question;
-        this.correctAnswer = correctAnswer;
-    }
-
-    public Question() {
+        this.studentAnswerInputOne = studentAnswerInputOne;
+        this.studentAnswerInputTwo = studentAnswerInputTwo;
+        this.studentAnswerInputThree = studentAnswerInputThree;
+        this.studentAnswerInputFour = studentAnswerInputFour;
+        this.studentAnswerInputFive = studentAnswerInputFive;
+        this.studentAnswerInputSix = studentAnswerInputSix;
+        this.studentAnswerInputSeven = studentAnswerInputSeven;
+        this.studentAnswerInputEight = studentAnswerInputEight;
+        this.studentAnswerInputNine = studentAnswerInputNine;
+        this.studentAnswerInputTen = studentAnswerInputTen;
     }
 
     public int getId() {
@@ -33,21 +49,84 @@ public class Question {
         this.question = question;
     }
 
-    public int getCorrectAnswer() {
-        return correctAnswer;
+    public int getStudentAnswerInputOne() {
+        return studentAnswerInputOne;
     }
 
-    public void setAnswer(int answer) {
-        this.correctAnswer = answer;
+    public void setStudentAnswerInputOne(int studentAnswerInputOne) {
+        this.studentAnswerInputOne = studentAnswerInputOne;
     }
 
-    @Override
-    public String toString() {
-        return "CreateFile{" +
-                "id=" + id +
-                ", question='" + question + '\'' +
-                ", correctAnswer=" + correctAnswer +
-                '}';
+    public int getStudentAnswerInputTwo() {
+        return studentAnswerInputTwo;
+    }
+
+    public void setStudentAnswerInputTwo(int studentAnswerInputTwo) {
+        this.studentAnswerInputTwo = studentAnswerInputTwo;
+    }
+
+    public int getStudentAnswerInputThree() {
+        return studentAnswerInputThree;
+    }
+
+    public void setStudentAnswerInputThree(int studentAnswerInputThree) {
+        this.studentAnswerInputThree = studentAnswerInputThree;
+    }
+
+    public int getStudentAnswerInputFour() {
+        return studentAnswerInputFour;
+    }
+
+    public void setStudentAnswerInputFour(int studentAnswerInputFour) {
+        this.studentAnswerInputFour = studentAnswerInputFour;
+    }
+
+    public int getStudentAnswerInputFive() {
+        return studentAnswerInputFive;
+    }
+
+    public void setStudentAnswerInputFive(int studentAnswerInputFive) {
+        this.studentAnswerInputFive = studentAnswerInputFive;
+    }
+
+    public int getStudentAnswerInputSix() {
+        return studentAnswerInputSix;
+    }
+
+    public void setStudentAnswerInputSix(int studentAnswerInputSix) {
+        this.studentAnswerInputSix = studentAnswerInputSix;
+    }
+
+    public int getStudentAnswerInputSeven() {
+        return studentAnswerInputSeven;
+    }
+
+    public void setStudentAnswerInputSeven(int studentAnswerInputSeven) {
+        this.studentAnswerInputSeven = studentAnswerInputSeven;
+    }
+
+    public int getStudentAnswerInputEight() {
+        return studentAnswerInputEight;
+    }
+
+    public void setStudentAnswerInputEight(int studentAnswerInputEight) {
+        this.studentAnswerInputEight = studentAnswerInputEight;
+    }
+
+    public int getStudentAnswerInputNine() {
+        return studentAnswerInputNine;
+    }
+
+    public void setStudentAnswerInputNine(int studentAnswerInputNine) {
+        this.studentAnswerInputNine = studentAnswerInputNine;
+    }
+
+    public int getStudentAnswerInputTen() {
+        return studentAnswerInputTen;
+    }
+
+    public void setStudentAnswerInputTen(int studentAnswerInputTen) {
+        this.studentAnswerInputTen = studentAnswerInputTen;
     }
 }
 

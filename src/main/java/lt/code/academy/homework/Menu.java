@@ -3,7 +3,10 @@ package lt.code.academy.homework;
 import java.util.Scanner;
 
 public class Menu {
+
+
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("\nPasirinkite vieną iš meniu punktų:\n");
@@ -21,7 +24,7 @@ public class Menu {
 
     private void selectmenuAction(String menuAction, Scanner scanner) {
         switch (menuAction) {
-            case "1" -> System.out.println("Iveskite studento numerį");
+            //case "1" -> selectmenuAction(scanner);
             case "2" -> System.out.println("Įveskite vardą");
             case "3" -> System.out.println("Įveskite pavardę");
             case "4" -> System.out.println("Pradėti testą");
