@@ -67,7 +67,9 @@ public class QuestionsMain {
             System.out.println("Įrašymo klaida į failą" + STUDENT_ANSWERS_FILE + " " + e.getMessage());
 
         }
+        System.out.println(STUDENT_ANSWERS_FILE);
     }
+
 }
 
 
