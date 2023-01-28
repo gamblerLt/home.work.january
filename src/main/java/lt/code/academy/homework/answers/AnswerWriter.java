@@ -1,66 +1,80 @@
 package lt.code.academy.homework.answers;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
+import org.json.simple.JSONObject;
+import org.json.simple.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
+import java.util.Map;
 
 public class AnswerWriter {
 
-    private static final String ANSWER_FILE_NAME = "C:\\Users\\Kompiuteris\\Documents\\GitHub\\WurkHome\\home.work.january\\src\\main\\java\\lt\\code\\academy\\homework\\files\\correct_answers.txt";
+    private static final String ANSWER_FILE_NAME = "correct_answers.json";
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws JsonProcessingException {
+
         ObjectMapper mapper = new ObjectMapper();
-        AnswerWriter answerWriter = new AnswerWriter();
-        answerWriter.readAnswers();
+        mapper.enable(SerializationFeature.INDENT_OUTPUT);
+        JSONObject objectAn = new JSONObject();
 
-        Answers answerOne = new Answers(2);
-        Answers answerTwo = new Answers(4);
-        Answers answerThree = new Answers(6);
-        Answers answerFour = new Answers(8);
-        Answers answerFive = new Answers(10);
-        Answers answerSix = new Answers(12);
-        Answers answerSeven = new Answers(14);
-        Answers answerEight = new Answers(16);
-        Answers answerNine = new Answers(18);
-        Answers answerTen = new Answers(20);
 
-        File file = null;
+        objectAn.put("1 correct answer:", 2);
+        objectAn.put("2 correct answer:", 4);
+        objectAn.put("3 correct answer:", 6);
+        objectAn.put("4 correct answer:", 8);
+        objectAn.put("5 correct answer:", 10);
+        objectAn.put("6 correct answer:", 12);
+        objectAn.put("7 correct answer:", 14);
+        objectAn.put("8 correct answer:", 16);
+        objectAn.put("9 correct answer:", 18);
+        objectAn.put("10 correct answer:", 20);
+
+
+
         try {
-            file = new File(ANSWER_FILE_NAME);
+            File file = new File(ANSWER_FILE_NAME);
             if (!file.exists()) {
                 file.createNewFile();
             }
 
+            mapper.writeValue(file, List.of(objectAn));
+
+
+            //JSONObject objectAnswer = new JSONObject();
+
+            String correctAnswers = mapper.writeValueAsString(objectAn);
+
+           /* List<JSONObject> objects = mapper.readValue(file, new TypeReference<>() {
+            });
+           System.out.println(objects);*/
+
+            Map<String, Object> map = mapper.readValue(correctAnswers, new TypeReference<>() {
+            });
+            System.out.println(map.get("1 correct answer:"));
+            System.out.println(map.get("2 correct answer:"));
+            System.out.println(map.get("3 correct answer:"));
+            System.out.println(map.get("4 correct answer:"));
+            System.out.println(map.get("5 correct answer:"));
+            System.out.println(map.get("6 correct answer:"));
+            System.out.println(map.get("7 correct answer:"));
+            System.out.println(map.get("8 correct answer:"));
+            System.out.println(map.get("9 correct answer:"));
+            System.out.println(map.get("10 correct answer:"));
+
         } catch (IOException e) {
-            System.out.println("Turime problemų su failu: " + ANSWER_FILE_NAME + " " + e.getMessage());
+            System.out.println("Klaida: " + e.getMessage());
         }
 
-        try {
-            mapper.writeValue(file, List.of(answerOne, answerTwo, answerThree, answerFour,
-                    answerFive, answerSix, answerSeven, answerEight, answerNine, answerTen));
-        } catch (IOException ee) {
-            System.out.println("Turime problemų su įrašymu: " + ee.getMessage());
-        }
 
     }
 
-    //sita kelti i kita klase
-    private static void readAnswers() {
-
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(ANSWER_FILE_NAME))) {
-            String line;
-            while ((line = bufferedReader.readLine()) != null) {
-                System.out.println(line);
-            }
-        } catch (IOException eee) {
-            System.out.println("Skaitymo iš failo klaida: " + eee.getMessage());
-
-        }
-    }
 }
 
 
