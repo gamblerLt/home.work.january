@@ -18,8 +18,6 @@ public class StudentMain {
     //StudentMain studentMain = new StudentMain();
     private static final String STUDENT_FILE_NAME = "student_file.json";
 
-    //private Map<String, Student> students;
-
     public static void main(String[] args) {
 
         ObjectMapper mapper = new ObjectMapper();
@@ -88,11 +86,10 @@ public class StudentMain {
           //String student = mapper.writeValueAsString(object);
           //System.out.println(student);
           String answers = mapper.writeValueAsString(objectSt);
-        //  System.out.println(answers);
 
-          List<JSONObject> objects = mapper.readValue(file, new TypeReference<>() {
+         /* List<JSONObject> objects = mapper.readValue(file, new TypeReference<>() {
           });
-          System.out.println(objects);
+          System.out.println(objects);*/
 
           //isvedam duomenis i mapa
           Map<String, Object> map = mapper.readValue(answers, new TypeReference<>(){});
@@ -108,22 +105,9 @@ public class StudentMain {
           System.out.println(map.get("10 answer"));
 
 
-
-
       }catch (IOException e) {
           System.out.println("Klaida: " + e.getMessage());
 
       }
-
-
-
-        /*ObjectWriter writer = mapper.writer(SerializationFeature.INDENT_OUTPUT);
-
-        try {
-           writer.writeValue(new File(STUDENT_FILE_NAME),object);
-            System.out.println("Sėkmingai įrašyra");
-        } catch (IOException e) {
-            System.out.println("Įrašymo klaida į failą" + STUDENT_FILE_NAME +" " + e.getMessage());
-        }*/
     }
 }

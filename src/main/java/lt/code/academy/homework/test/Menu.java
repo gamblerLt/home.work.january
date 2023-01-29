@@ -1,4 +1,4 @@
-package lt.code.academy.homework;
+package lt.code.academy.homework.test;
 
 import java.util.Scanner;
 
