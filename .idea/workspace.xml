@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="ClassCastExeption">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Trylika.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CompareEleven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CompareEleven.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CompareTwelve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CompareTwelve.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/StudentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/StudentMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Trylika.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/answers/AnswerWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/answers/AnswerWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/answers/Answers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/answers/Answers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student_file.json" beforeDir="false" afterPath="$PROJECT_DIR$/student_file.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +68,7 @@
       <recent name="C:\Users\Kompiuteris\Documents\GitHub\WurkHome\home.work.january\src\main\java\lt\code\academy\homework\files" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Trylika">
+  <component name="RunManager" selected="Application.CompareEleven">
     <configuration name="AnswerWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.answers.AnswerWriter" />
       <module name="home.work.january" />
@@ -134,10 +136,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Trylika" />
-        <item itemvalue="Application.StudentMain" />
-        <item itemvalue="Application.CompareTwelve" />
         <item itemvalue="Application.CompareEleven" />
+        <item itemvalue="Application.StudentMain" />
+        <item itemvalue="Application.Trylika" />
+        <item itemvalue="Application.CompareTwelve" />
         <item itemvalue="Application.AnswerWriter" />
       </list>
     </recent_temporary>
@@ -241,7 +243,13 @@
       <option name="presentableId" value="LOCAL−00015" />
       <updated>1675069297150</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL−00016" summary="ClassCastExeption">
+      <created>1675072242725</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1675072242725</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

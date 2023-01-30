@@ -2,29 +2,22 @@ package lt.code.academy.homework;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
-
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
-
 public class StudentMain {
 
-    //StudentMain studentMain = new StudentMain();
     private static final String STUDENT_FILE_NAME = "student_file.json";
     private static final String ANSWER_FILE_NAME = "correct_answers.json";
 
-
     public static void main(String[] args) {
+
+        StudentMain studentMain = new StudentMain();
 
         ObjectMapper mapper = new ObjectMapper();
         mapper.enable(SerializationFeature.INDENT_OUTPUT);
@@ -77,56 +70,53 @@ public class StudentMain {
         objectSt.put("9 answer", studentAnswerInputNine);
         objectSt.put("10 answer", studentAnswerInputTen);
 
-      try {
-          File file = new File(STUDENT_FILE_NAME);
-          if (!file.exists()) {
-              file.createNewFile();
-          }
+        try {
+            File file = new File(STUDENT_FILE_NAME);
+            if (!file.exists()) {
+                file.createNewFile();
+            }
 
-          mapper.writeValue(file, List.of(object, objectSt));
+            mapper.writeValue(file, List.of(object, objectSt));
+            String answers = mapper.writeValueAsString(objectSt);
 
-          //JSONObject readValue = mapper.readValue(file, JSONObject.class);
+            System.out.println("Studento atsakymai:");
 
-          //System.out.println(readValue);
+            //isvedam duomenis i mapa
+            Map<String, Object> map = mapper.readValue(answers, new TypeReference<>() {
+            });
+            System.out.println(map.get("1 answer"));
+            System.out.println(map.get("2 answer"));
+            System.out.println(map.get("3 answer"));
+            System.out.println(map.get("4 answer"));
+            System.out.println(map.get("5 answer"));
+            System.out.println(map.get("6 answer"));
+            System.out.println(map.get("7 answer"));
+            System.out.println(map.get("8 answer"));
+            System.out.println(map.get("9 answer"));
+            System.out.println(map.get("10 answer"));
 
-          //String student = mapper.writeValueAsString(object);
-          //System.out.println(student);
-          String answers = mapper.writeValueAsString(objectSt);
+            System.out.println("Teisingi atsakymai: ");
 
-         /* List<JSONObject> objects = mapper.readValue(file, new TypeReference<>() {
-          });
-          System.out.println(objects);*/
-          System.out.println("Studento atsakymai:");
+            mapper.writeValue(file, List.of(object, objectAn));
+            String correctAnswers = mapper.writeValueAsString(objectAn);
+            Map<String, Object> map2 = mapper.readValue(correctAnswers, new TypeReference<>() {
+            });
 
-          //isvedam duomenis i mapa
-          Map<String, Object> map = mapper.readValue(answers, new TypeReference<>(){});
-          System.out.println(map.get("1 answer"));
-          System.out.println(map.get("2 answer"));
-          System.out.println(map.get("3 answer"));
-          System.out.println(map.get("4 answer"));
-          System.out.println(map.get("5 answer"));
-          System.out.println(map.get("6 answer"));
-          System.out.println(map.get("7 answer"));
-          System.out.println(map.get("8 answer"));
-          System.out.println(map.get("9 answer"));
-          System.out.println(map.get("10 answer"));
-
-          System.out.println("Teisingi atsakymai: ");
-
-          JSONParser jsonParser = new JSONParser();
-          try {
-              JSONObject jsonObject =  (JSONObject) jsonParser.parse(new FileReader(ANSWER_FILE_NAME));
-              String firstAnswer = (String) jsonObject.get("1 answer");
-
-              System.out.println(firstAnswer);
-          } catch (FileNotFoundException | ParseException e) {
-              System.out.println(e.getMessage());
-          }
+            System.out.println(map2.get("1 answer:"));
+            System.out.println(map2.get("2 answer:"));
+            System.out.println(map2.get("3 answer:"));
+            System.out.println(map2.get("4 answer:"));
+            System.out.println(map2.get("5 answer:"));
+            System.out.println(map2.get("6 answer:"));
+            System.out.println(map2.get("7 answer:"));
+            System.out.println(map2.get("8 answer:"));
+            System.out.println(map2.get("9 answer:"));
+            System.out.println(map2.get("10 answer:"));
 
 
-      }catch (IOException e) {
-          System.out.println("Klaida: " + e.getMessage());
+        } catch (IOException e) {
+            System.out.println("Klaida: " + e.getMessage());
 
-      }
+        }
     }
 }

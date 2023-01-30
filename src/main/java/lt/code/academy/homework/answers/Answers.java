@@ -1,6 +1,6 @@
 package lt.code.academy.homework.answers;
 
-public record Answers (int id, String correctAnswer) {
+public record Answers(int id, String correctAnswer) {
 
     @Override
     public String toString() {

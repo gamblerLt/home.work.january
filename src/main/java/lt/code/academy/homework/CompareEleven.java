@@ -8,6 +8,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;*/
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -16,61 +17,58 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
+import com.fasterxml.jackson.core.JsonGenerationException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 
 public class CompareEleven {
     private static final String ANSWER_FILE_NAME = "correct_answers.json";
     private static final String STUDENT_FILE_NAME = "student_file.json";
 
     public static void main(String[] args) {
-        //sukuriu json parser
-        JSONParser parser = new JSONParser();
+
+        ObjectMapper mapper = new ObjectMapper();
 
         try {
-            Object object1 = parser.parse(new FileReader(ANSWER_FILE_NAME));
-            Object object2 = parser.parse(new FileReader(STUDENT_FILE_NAME));
 
+            // read JSON file 1
+            Map<String, Object> map1 = mapper.readValue(new File(ANSWER_FILE_NAME), Map.class);
 
-            JSONObject jsonObject = new JSONObject();
-            JSONObject jsonObject2 = new JSONObject();
+            // read JSON file 2
+            Map<String, Object> map2 = mapper.readValue(new File(STUDENT_FILE_NAME), Map.class);
 
-            Map<String, Integer> map1 = new HashMap<String, Integer>();
-            Map<String, Integer> map2 = new HashMap<String, Integer>();
+            // count equal values
+            Map<String, Integer> counts = new HashMap<String, Integer>();
+            for (String key : map1.keySet()) {
+                if (map2.containsKey(key)) {
+                    Object value1 = map1.get(key);
+                    Object value2 = map2.get(key);
 
-            Iterator<String> iterator1 = jsonObject.keySet().iterator();
-            while (iterator1.hasNext()) {
-                String key1 = iterator1.next();
-                Object value1 = jsonObject.get(key1);
-                map1.put(key1, (Integer) value1);
-            }
-            Iterator<String> iterator2 = jsonObject2.keySet().iterator();
-            while (iterator2.hasNext()) {
-                String key2 = iterator2.next();
-                Object value2 = jsonObject2.get(key2);
-                map2.put(key2, (Integer) value2);
-            }
-            for (Map.Entry<String, Integer> entry : map1.entrySet()) {
-                String key1 = entry.getKey();
-                Integer value1 = entry.getValue();
-                if (map2.containsKey(key1)) {
-                    Integer value2 = map2.get(key1);
                     if (value1.equals(value2)) {
-                        System.out.println("Lygios reiksmes key1:" + key1);
+                        if (counts.containsKey(key)) {
+                            int count = counts.get(key);
+                            count++;
+                            counts.put(key, count);
+                        } else {
+                            counts.put(key, 1);
+                        }
                     }
                 }
             }
 
-        } catch (FileNotFoundException e) {
-            System.out.println("Nerastas failas" + e.getMessage());
+            // print counts
+            for (String key : counts.keySet()) {
+                System.out.println(key + ": " + counts.get(key));
+            }
+
+        } catch (JsonGenerationException e) {
+            e.printStackTrace();
+        } catch (JsonMappingException e) {
+            e.printStackTrace();
         } catch (IOException e) {
-            System.out.println(e.getMessage());
-        } catch (ParseException e) {
-            System.out.println(e.getMessage());
+            e.printStackTrace();
         }
     }
 }
-
-
-
