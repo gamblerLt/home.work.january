@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="SaturdayNight">
-      <change afterPath="$PROJECT_DIR$/correct_answers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Compare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CompareTen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CompareTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student_file.json" afterDir="false" />
+    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="SortJsonNoWurk">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CompareEleven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CompareTwelve.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/LoginWrRd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/LoginWrRd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/MenuRec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/MenuRec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/QuestionsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/QuestionsMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/ReadLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/ReadLines.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/ResponseMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/ResponseMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/StudentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/StudentMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/StudentResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/StudentResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/WhatToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/WhatToDo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/answers/AnswerWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/answers/AnswerWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/answers/Answers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/answers/Answers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,26 +47,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/HasPe/Documents/GitHub/lambda.functions",
-    "settings.editor.selected.configurable": "preferences.general"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kompiuteris/Documents/GitHub/WurkHome/lambda.functions&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="lt.code.academy.homework" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\HasPe\Documents\GitHub\home.work.january\src\main\java\lt\code\academy\homework\test" />
-      <recent name="C:\Users\HasPe\Documents\GitHub\home.work.january\src\main\java\lt\code\academy\homework\files" />
       <recent name="C:\Users\Kompiuteris\Documents\GitHub\WurkHome\home.work.january\src\main\java\lt\code\academy\homework\files" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompareTen">
+  <component name="RunManager" selected="Application.CompareEleven">
     <configuration name="AnswerWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.answers.AnswerWriter" />
       <module name="home.work.january" />
@@ -108,8 +90,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompareTen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.CompareTen" />
+    <configuration name="CompareEleven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.CompareEleven" />
+      <module name="home.work.january" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.code.academy.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompareTwelve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.CompareTwelve" />
       <module name="home.work.january" />
       <extension name="coverage">
         <pattern>
@@ -134,26 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.test.Main" />
-      <module name="home.work.january" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lt.code.academy.homework.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CompareTen" />
+        <item itemvalue="Application.CompareEleven" />
+        <item itemvalue="Application.CompareTwelve" />
+        <item itemvalue="Application.AnswerWriter" />
         <item itemvalue="Application.CompareTwo" />
         <item itemvalue="Application.Compare" />
-        <item itemvalue="Application.AnswerWriter" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -244,11 +226,11 @@
       <option name="presentableId" value="LOCAL−00013" />
       <updated>1674657866732</updated>
     </task>
-    <task id="LOCAL−00014" summary="SaturdayNight">
-      <created>1674934004008</created>
+    <task id="LOCAL−00014" summary="SortJsonNoWurk">
+      <created>1674744430697</created>
       <option name="number" value="LOCAL−00014" />
       <option name="presentableId" value="LOCAL−00014" />
-      <updated>1674934004008</updated>
+      <updated>1674744430697</updated>
     </task>
     <option name="localTasksCounter" value="15" />
     <servers />
@@ -279,8 +261,8 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="IdentOutput?" />
     <MESSAGE value="IdentOutput?MapperNoWurk" />
-    <MESSAGE value="SaturdayNight" />
-    <option name="LAST_COMMIT_MESSAGE" value="SaturdayNight" />
+    <MESSAGE value="SortJsonNoWurk" />
+    <option name="LAST_COMMIT_MESSAGE" value="SortJsonNoWurk" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
