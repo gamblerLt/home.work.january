@@ -14,10 +14,10 @@ public class CompareTwelve {
     private static final String STUDENT_FILE_NAME = "student_file.json";
     public static void main(String[] args) throws IOException, ParseException {
         Object ob1 = new JSONParser().parse((new FileReader(ANSWER_FILE_NAME)));
-        JSONObject jo1 =(JSONObject) ob1;
+        JSONObject jo1 = new JSONObject();
 
         Object ob2 = new JSONParser().parse(new FileReader(STUDENT_FILE_NAME));
-        JSONObject jo2 = (JSONObject) ob2;
+        JSONObject jo2 = new JSONObject();
 
         JSONArray ja1 = (JSONArray)  jo1.get("values");
         JSONArray ja2 = (JSONArray) jo2.get("values");

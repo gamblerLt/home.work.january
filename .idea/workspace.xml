@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="SortJsonNoWurk">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CompareEleven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CompareTwelve.java" afterDir="false" />
+    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="ClassCastExeption">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Trylika.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CompareEleven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CompareEleven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CompareTwelve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CompareTwelve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/StudentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/StudentMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_file.json" beforeDir="false" afterPath="$PROJECT_DIR$/student_file.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,26 +66,13 @@
       <recent name="C:\Users\Kompiuteris\Documents\GitHub\WurkHome\home.work.january\src\main\java\lt\code\academy\homework\files" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompareEleven">
+  <component name="RunManager" selected="Application.Trylika">
     <configuration name="AnswerWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.answers.AnswerWriter" />
       <module name="home.work.january" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lt.code.academy.homework.answers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Compare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.Compare" />
-      <module name="home.work.january" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lt.code.academy.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,8 +106,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompareTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.CompareTwo" />
+    <configuration name="StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.StudentMain" />
+      <module name="home.work.january" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.code.academy.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Trylika" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.Trylika" />
       <module name="home.work.january" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CompareEleven" />
+        <item itemvalue="Application.Trylika" />
+        <item itemvalue="Application.StudentMain" />
         <item itemvalue="Application.CompareTwelve" />
+        <item itemvalue="Application.CompareEleven" />
         <item itemvalue="Application.AnswerWriter" />
-        <item itemvalue="Application.CompareTwo" />
-        <item itemvalue="Application.Compare" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +235,13 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1674744430697</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="ClassCastExeption">
+      <created>1675069297150</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1675069297150</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,7 +271,8 @@
     <MESSAGE value="IdentOutput?" />
     <MESSAGE value="IdentOutput?MapperNoWurk" />
     <MESSAGE value="SortJsonNoWurk" />
-    <option name="LAST_COMMIT_MESSAGE" value="SortJsonNoWurk" />
+    <MESSAGE value="ClassCastExeption" />
+    <option name="LAST_COMMIT_MESSAGE" value="ClassCastExeption" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

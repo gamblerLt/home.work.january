@@ -5,8 +5,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
@@ -17,6 +21,8 @@ public class StudentMain {
 
     //StudentMain studentMain = new StudentMain();
     private static final String STUDENT_FILE_NAME = "student_file.json";
+    private static final String ANSWER_FILE_NAME = "correct_answers.json";
+
 
     public static void main(String[] args) {
 
@@ -90,6 +96,7 @@ public class StudentMain {
          /* List<JSONObject> objects = mapper.readValue(file, new TypeReference<>() {
           });
           System.out.println(objects);*/
+          System.out.println("Studento atsakymai:");
 
           //isvedam duomenis i mapa
           Map<String, Object> map = mapper.readValue(answers, new TypeReference<>(){});
@@ -103,6 +110,18 @@ public class StudentMain {
           System.out.println(map.get("8 answer"));
           System.out.println(map.get("9 answer"));
           System.out.println(map.get("10 answer"));
+
+          System.out.println("Teisingi atsakymai: ");
+
+          JSONParser jsonParser = new JSONParser();
+          try {
+              JSONObject jsonObject =  (JSONObject) jsonParser.parse(new FileReader(ANSWER_FILE_NAME));
+              String firstAnswer = (String) jsonObject.get("1 answer");
+
+              System.out.println(firstAnswer);
+          } catch (FileNotFoundException | ParseException e) {
+              System.out.println(e.getMessage());
+          }
 
 
       }catch (IOException e) {

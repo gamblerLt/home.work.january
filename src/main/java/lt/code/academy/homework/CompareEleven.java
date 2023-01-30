@@ -32,16 +32,17 @@ public class CompareEleven {
             Object object1 = parser.parse(new FileReader(ANSWER_FILE_NAME));
             Object object2 = parser.parse(new FileReader(STUDENT_FILE_NAME));
 
-            JSONObject jsonObject1 = (JSONObject) object1;
-            JSONObject jsonObject2 = (JSONObject) object2;
+
+            JSONObject jsonObject = new JSONObject();
+            JSONObject jsonObject2 = new JSONObject();
 
             Map<String, Integer> map1 = new HashMap<String, Integer>();
             Map<String, Integer> map2 = new HashMap<String, Integer>();
 
-            Iterator<String> iterator1 = jsonObject1.keySet().iterator();
+            Iterator<String> iterator1 = jsonObject.keySet().iterator();
             while (iterator1.hasNext()) {
                 String key1 = iterator1.next();
-                Object value1 = jsonObject1.get(key1);
+                Object value1 = jsonObject.get(key1);
                 map1.put(key1, (Integer) value1);
             }
             Iterator<String> iterator2 = jsonObject2.keySet().iterator();
