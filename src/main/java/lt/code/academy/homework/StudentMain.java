@@ -3,8 +3,12 @@ package lt.code.academy.homework;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import lt.code.academy.homework.answers.AnswerWriter;
 import org.json.simple.JSONObject;
+
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
@@ -17,7 +21,10 @@ public class StudentMain {
 
     public static void main(String[] args) {
 
-        StudentMain studentMain = new StudentMain();
+        //StudentMain studentMain = new StudentMain();
+       // AnswerWriter answerWriter = new AnswerWriter();
+        //answerWriter.objectAn(); // apsiraudonaves
+
 
         ObjectMapper mapper = new ObjectMapper();
         mapper.enable(SerializationFeature.INDENT_OUTPUT);
@@ -59,16 +66,16 @@ public class StudentMain {
 
         JSONObject objectSt = new JSONObject();
 
-        objectSt.put("1 answer", studentAnswerInputOne);
-        objectSt.put("2 answer", studentAnswerInputTwo);
-        objectSt.put("3 answer", studentAnswerInputThree);
-        objectSt.put("4 answer", studentAnswerInputFour);
-        objectSt.put("5 answer", studentAnswerInputFive);
-        objectSt.put("6 answer", studentAnswerInputSix);
-        objectSt.put("7 answer", studentAnswerInputSeven);
-        objectSt.put("8 answer", studentAnswerInputEight);
-        objectSt.put("9 answer", studentAnswerInputNine);
-        objectSt.put("10 answer", studentAnswerInputTen);
+        objectSt.put("1 answer:", studentAnswerInputOne);
+        objectSt.put("2 answer:", studentAnswerInputTwo);
+        objectSt.put("3 answer:", studentAnswerInputThree);
+        objectSt.put("4 answer:", studentAnswerInputFour);
+        objectSt.put("5 answer:", studentAnswerInputFive);
+        objectSt.put("6 answer:", studentAnswerInputSix);
+        objectSt.put("7 answer:", studentAnswerInputSeven);
+        objectSt.put("8 answer:", studentAnswerInputEight);
+        objectSt.put("9 answer:", studentAnswerInputNine);
+        objectSt.put("10 answer:", studentAnswerInputTen);
 
         try {
             File file = new File(STUDENT_FILE_NAME);
@@ -84,39 +91,47 @@ public class StudentMain {
             //isvedam duomenis i mapa
             Map<String, Object> map = mapper.readValue(answers, new TypeReference<>() {
             });
-            System.out.println(map.get("1 answer"));
-            System.out.println(map.get("2 answer"));
-            System.out.println(map.get("3 answer"));
-            System.out.println(map.get("4 answer"));
-            System.out.println(map.get("5 answer"));
-            System.out.println(map.get("6 answer"));
+            System.out.println(map.get("1 answer:"));
+            System.out.println(map.get("2 answer:"));
+            System.out.println(map.get("3 answer:"));
+            System.out.println(map.get("4 answer:"));
+            System.out.println(map.get("5 answer:"));
+            System.out.println(map.get("6 answer:"));
             System.out.println(map.get("7 answer"));
-            System.out.println(map.get("8 answer"));
-            System.out.println(map.get("9 answer"));
-            System.out.println(map.get("10 answer"));
+            System.out.println(map.get("8 answer:"));
+            System.out.println(map.get("9 answer:"));
+            System.out.println(map.get("10 answer:"));
 
-            System.out.println("Teisingi atsakymai: ");
+            
+            
+        } catch (IOException e) {
+            System.out.println("Klaida: " + e.getMessage());
 
-            mapper.writeValue(file, List.of(object, objectAn));
+        }
+        System.out.println("Teisingi atsakymai: ");
+
+        JSONObject objectAn = new JSONObject();
+        try {
+            File file = new File(ANSWER_FILE_NAME);
+            mapper.writeValue(file, List.of(objectAn));
             String correctAnswers = mapper.writeValueAsString(objectAn);
-            Map<String, Object> map2 = mapper.readValue(correctAnswers, new TypeReference<>() {
+            Map<String, Object> map = mapper.readValue(correctAnswers, new TypeReference<>() {
             });
 
-            System.out.println(map2.get("1 answer:"));
-            System.out.println(map2.get("2 answer:"));
-            System.out.println(map2.get("3 answer:"));
-            System.out.println(map2.get("4 answer:"));
-            System.out.println(map2.get("5 answer:"));
-            System.out.println(map2.get("6 answer:"));
-            System.out.println(map2.get("7 answer:"));
-            System.out.println(map2.get("8 answer:"));
-            System.out.println(map2.get("9 answer:"));
-            System.out.println(map2.get("10 answer:"));
+            System.out.println(map.get("1 answer:"));
+            System.out.println(map.get("2 answer:"));
+            System.out.println(map.get("3 answer:"));
+            System.out.println(map.get("4 answer:"));
+            System.out.println(map.get("5 answer:"));
+            System.out.println(map.get("6 answer:"));
+            System.out.println(map.get("7 answer:"));
+            System.out.println(map.get("8 answer:"));
+            System.out.println(map.get("9 answer:"));
+            System.out.println(map.get("10 answer:"));
 
 
         } catch (IOException e) {
             System.out.println("Klaida: " + e.getMessage());
-
         }
     }
 }

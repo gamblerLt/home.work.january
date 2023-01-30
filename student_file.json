@@ -1,12 +1,16 @@
-[ { }, {
-  "2 answer" : 4,
-  "9 answer" : 4,
-  "4 answer" : 8,
-  "7 answer" : 2,
-  "8 answer" : 3,
-  "1 answer" : 2,
-  "3 answer" : 6,
-  "5 answer" : 10,
-  "6 answer" : 1,
-  "10 answer" : 5
+[ {
+  "Studento numeris" : "585",
+  "Studento vardas" : "Riii",
+  "Studento pavardė" : "Maaa"
+}, {
+  "6 answer:" : 12,
+  "1 answer:" : 2,
+  "7 answer:" : 16,
+  "9 answer:" : 18,
+  "4 answer:" : 8,
+  "3 answer:" : 6,
+  "10 answer:" : 10,
+  "2 answer:" : 4,
+  "5 answer:" : 10,
+  "8 answer:" : 14
 } ]
