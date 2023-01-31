@@ -21,21 +21,23 @@ public class StudentMain {
 
     public static void main(String[] args) {
 
-        //StudentMain studentMain = new StudentMain();
+        StudentMain studentMain = new StudentMain();
        // AnswerWriter answerWriter = new AnswerWriter();
         //answerWriter.objectAn(); // apsiraudonaves
+       // Student student = new Student();
 
 
         ObjectMapper mapper = new ObjectMapper();
         mapper.enable(SerializationFeature.INDENT_OUTPUT);
 
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Įveskite studento numerį");
-        String studNumb = scanner.nextLine();
+        String studentNumber = scanner.nextLine();
         System.out.println("Įveskite savo vardą");
-        String studName = scanner.nextLine();
+        String name = scanner.nextLine();
         System.out.println("Įveskite savo pavardę");
-        String studSurname = scanner.nextLine();
+        String surname = scanner.nextLine();
 
         System.out.println("Kiek bus 2 * 1");
         int studentAnswerInputOne = scanner.nextInt();
@@ -58,11 +60,14 @@ public class StudentMain {
         System.out.println("Kiek bus 2 * 10");
         int studentAnswerInputTen = scanner.nextInt();
 
+      //  mapper.writeValue(stringUser, User.class);
+
+
         JSONObject object = new JSONObject();
 
-        object.put("Studento numeris", studNumb);
-        object.put("Studento vardas", studName);
-        object.put("Studento pavardė", studSurname);
+        object.put("Studento numeris", studentNumber);
+        object.put("Studento vardas", name);
+        object.put("Studento pavardė", surname);
 
         JSONObject objectSt = new JSONObject();
 
@@ -102,8 +107,8 @@ public class StudentMain {
             System.out.println(map.get("9 answer:"));
             System.out.println(map.get("10 answer:"));
 
-            
-            
+
+
         } catch (IOException e) {
             System.out.println("Klaida: " + e.getMessage());
 

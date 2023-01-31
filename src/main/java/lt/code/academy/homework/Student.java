@@ -3,6 +3,9 @@ package lt.code.academy.homework;
 import java.io.Serializable;
 
 public record Student(String studentNumber, String name, String surname) implements Serializable {
+    public Student {
+    }
+
 
     @Override
     public String toString() {
@@ -14,3 +17,11 @@ public record Student(String studentNumber, String name, String surname) impleme
     }
 }
 
+/*class Record {
+    private String name;
+    private int age;
+    private String address;
+
+    public String getName() {
+        return name;
+    }*/
