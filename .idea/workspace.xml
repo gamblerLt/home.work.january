@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="CorrectAnswersNull">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/student/StudentRec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/student/StudentToMain.java" afterDir="false" />
+    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="Sausio31">
+      <change afterPath="$PROJECT_DIR$/student_rec_file.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/StudentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/StudentMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/student/StudentToMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/student/StudentToMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +257,13 @@
       <option name="presentableId" value="LOCAL−00018" />
       <updated>1675085969704</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL−00019" summary="Sausio31">
+      <created>1675175090738</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1675175090738</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,7 +296,8 @@
     <MESSAGE value="ClassCastExeption" />
     <MESSAGE value="101-102 rows" />
     <MESSAGE value="CorrectAnswersNull" />
-    <option name="LAST_COMMIT_MESSAGE" value="CorrectAnswersNull" />
+    <MESSAGE value="Sausio31" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sausio31" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

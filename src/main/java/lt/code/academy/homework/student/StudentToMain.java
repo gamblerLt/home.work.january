@@ -16,6 +16,8 @@ public class StudentToMain {
         ObjectMapper mapper = new ObjectMapper();
         mapper.enable(SerializationFeature.INDENT_OUTPUT);
 
+       StudentRec student = new StudentRec("Numeris", "Vardas", "Pavarde");
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Įveskite studento numerį");
         String stNumb = scanner.nextLine();
@@ -33,7 +35,7 @@ public class StudentToMain {
 
             mapper.writeValue(file, List.of(stNumb, stName, stSurname));
 
-            System.out.println(file);
+          //  System.out.println(student);
 
 
         } catch (IOException e) {
