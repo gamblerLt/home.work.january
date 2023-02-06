@@ -1,21 +1,13 @@
 package lt.code.academy.homework.answers;
 
-import java.util.List;
-
-public record Answers(int correctAnswer) {
-    @Override
-    public boolean equals(Object obj) {
-        return false;
-    }
-
-    @Override
-    public int hashCode() {
-        return 0;
-    }
+public record Answers(int id, String correctAnswer) {
 
     @Override
     public String toString() {
-        return null;
+        return "Answers{" +
+                "id=" + id +
+                ", correctAnswer='" + correctAnswer + '\'' +
+                '}';
     }
 }
 

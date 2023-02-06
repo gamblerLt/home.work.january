@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="Sausio31">
-      <change afterPath="$PROJECT_DIR$/questions_answers_correct_answers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/student/StudentInput.java" afterDir="false" />
+    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="SHIT">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/answers/AnswerWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/answers/AnswerWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/answers/Answers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/answers/Answers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/student/StudentRec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/student/StudentRec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/student/StudentToMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/student/StudentToMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_rec_file.json" beforeDir="false" afterPath="$PROJECT_DIR$/student_rec_file.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +53,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Kompiuteris/Documents/GitHub/WurkHome/repeat.topic"
+    "last_opened_file_path": "C:/Users/HasPe/Documents/GitHub/home.work.january"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -70,12 +65,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.StudentToMain">
-    <configuration name="AnswerWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.answers.AnswerWriter" />
+    <configuration name="Compare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.Compare" />
       <module name="home.work.january" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lt.code.academy.homework.answers.*" />
+          <option name="PATTERN" value="lt.code.academy.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Compare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.Compare" />
+    <configuration name="CompareTwelve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.CompareTwelve" />
       <module name="home.work.january" />
       <extension name="coverage">
         <pattern>
@@ -138,10 +133,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.StudentToMain" />
-        <item itemvalue="Application.AnswerWriter" />
         <item itemvalue="Application.StudentMain" />
         <item itemvalue="Application.Compare" />
         <item itemvalue="Application.CompareTwo" />
+        <item itemvalue="Application.CompareTwelve" />
       </list>
     </recent_temporary>
   </component>
@@ -268,13 +263,7 @@
       <option name="presentableId" value="LOCAL−00019" />
       <updated>1675175090738</updated>
     </task>
-    <task id="LOCAL−00020" summary="Sausio31">
-      <created>1675175950576</created>
-      <option name="number" value="LOCAL−00020" />
-      <option name="presentableId" value="LOCAL−00020" />
-      <updated>1675175950576</updated>
-    </task>
-    <option name="localTasksCounter" value="21" />
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
