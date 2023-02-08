@@ -1,4 +1,4 @@
-package lt.code.academy.homework.student;
+package lt.code.academy.homework.resulttest;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
