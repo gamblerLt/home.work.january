@@ -1,14 +1,11 @@
-package lt.code.academy.homework;
+package lt.code.academy.homework.test;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import lt.code.academy.homework.answers.AnswerWriter;
 import org.json.simple.JSONObject;
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;

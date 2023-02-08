@@ -1,4 +1,4 @@
-package lt.code.academy.homework.student;
+package lt.code.academy.homework.test;
 
 public class StudentRec {
     String studentNumber;

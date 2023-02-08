@@ -1,4 +1,4 @@
-package lt.code.academy.homework;
+package lt.code.academy.homework.test;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;

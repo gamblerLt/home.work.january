@@ -1,4 +1,4 @@
-package lt.code.academy.homework.student;
+package lt.code.academy.homework.test;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;

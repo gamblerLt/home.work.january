@@ -1,16 +1,6 @@
 [ {
-  "Studento numeris" : "585",
-  "Studento vardas" : "Riii",
-  "Studento pavardė" : "Maaa"
-}, {
-  "6 answer:" : 12,
-  "1 answer:" : 2,
-  "7 answer:" : 16,
-  "9 answer:" : 18,
-  "4 answer:" : 8,
-  "3 answer:" : 6,
-  "10 answer:" : 10,
-  "2 answer:" : 4,
-  "5 answer:" : 10,
-  "8 answer:" : 14
+  "id" : 1,
+  "studentNumber" : 254,
+  "name" : "Algis",
+  "surname" : "Pavardauskas"
 } ]

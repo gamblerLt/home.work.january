@@ -4,10 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="SHIT">
+    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="Sausio31">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/answer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/question.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/questions/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/questions/QuestionWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/resulttest/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/student/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/student/StudentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/studentanswers/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/studentanswers/AnswerStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/answers/CorrectAnswers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/answers/AnswerWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/answers/AnswerWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/answers/Answers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/answers/Answers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/correct_answers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions_answers_correct_answers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Compare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/Compare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CompareEleven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/CompareEleven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CompareTen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/CompareTen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CompareTwelve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/CompareTwelve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/CompareTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/CompareTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/StudentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/StudentMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/answers/AnswerWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/answers/AnswerWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/answers/Answers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/files/correct_answers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/files/student_answers_file.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/files/student_file.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/student/StudentInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/StudentInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/student/StudentRec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/StudentRec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/student/StudentToMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/StudentToMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_file.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_rec_file.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,14 +80,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/HasPe/Documents/GitHub/home.work.january"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kompiuteris/Documents/GitHub/WurkHome/repeat.topic&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="lt.code.academy.homework" />
@@ -64,13 +96,13 @@
       <recent name="C:\Users\Kompiuteris\Documents\GitHub\WurkHome\home.work.january\src\main\java\lt\code\academy\homework\files" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentToMain">
-    <configuration name="Compare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.Compare" />
+  <component name="RunManager" selected="Application.Result">
+    <configuration name="AnswerStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.studentanswers.AnswerStudent" />
       <module name="home.work.january" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lt.code.academy.homework.*" />
+          <option name="PATTERN" value="lt.code.academy.homework.studentanswers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompareTwelve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.CompareTwelve" />
+    <configuration name="AnswerWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.test.answers.AnswerWriter" />
       <module name="home.work.january" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lt.code.academy.homework.*" />
+          <option name="PATTERN" value="lt.code.academy.homework.test.answers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompareTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.CompareTwo" />
+    <configuration name="QuestionWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.questions.QuestionWriter" />
       <module name="home.work.january" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lt.code.academy.homework.*" />
+          <option name="PATTERN" value="lt.code.academy.homework.questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.StudentMain" />
+    <configuration name="Result" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.code.academy.homework.resulttest.Result" />
       <module name="home.work.january" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lt.code.academy.homework.*" />
+          <option name="PATTERN" value="lt.code.academy.homework.resulttest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Result" />
+        <item itemvalue="Application.AnswerStudent" />
+        <item itemvalue="Application.QuestionWriter" />
         <item itemvalue="Application.StudentToMain" />
-        <item itemvalue="Application.StudentMain" />
-        <item itemvalue="Application.Compare" />
-        <item itemvalue="Application.CompareTwo" />
-        <item itemvalue="Application.CompareTwelve" />
+        <item itemvalue="Application.AnswerWriter" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +295,13 @@
       <option name="presentableId" value="LOCAL−00019" />
       <updated>1675175090738</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL−00020" summary="Sausio31">
+      <created>1675175950576</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1675175950576</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

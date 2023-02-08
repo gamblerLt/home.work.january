@@ -1,12 +1,9 @@
 package lt.code.academy.homework.test;
 
-import lt.code.academy.homework.StudentMain;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
-import java.util.Objects;
 
 public class Main {
     private static final String ANSWER_FILE_NAME = "correct_answers.json";
