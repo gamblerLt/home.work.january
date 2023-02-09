@@ -82,6 +82,19 @@
             <artifactId>mockito-junit-jupiter</artifactId>
             <version>5.0.0</version>
             <scope>test</scope>
+
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.infrastructurebuilder/ibcore-vertx-base -->
+        <dependency>
+            <groupId>org.infrastructurebuilder</groupId>
+            <artifactId>ibcore-vertx-base</artifactId>
+            <version>0.20.0</version>
         </dependency>
 
     </dependencies>
