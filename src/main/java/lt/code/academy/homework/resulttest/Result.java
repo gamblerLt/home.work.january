@@ -31,8 +31,6 @@ public class Result {
         student.setName("Algis");
         student.setSurname("Pavardauskas");
 
-
-
         try{
             Object obj = parser.parse(new FileReader(ALL_ANSWERS_FILE));
             JSONObject jsonObject = (JSONObject) obj;
@@ -56,13 +54,12 @@ public class Result {
 
             // Ivertinimo skaiciavimas
             double grade = (double) score / correctAnswers.size() * 100;
-            System.out.println("Studentas"+   "teisingai atsakė: " + grade + "% iš visų atsakymų.");
+            System.out.println("Studentas"+   "teisingai atsakė: " + grade + " % iš visų atsakymų.");
 
             File file = new File(STUDENT_FILE);
-            mapper.writeValue(file, List.of(student));
+            mapper.writeValue(file, List.of(student, score, grade));
             if(!file.exists()) {
                 file.createNewFile();
-
 
             }
 
