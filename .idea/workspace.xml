@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="Vasario9">
-      <change afterPath="$PROJECT_DIR$/cor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/resulttest/Playground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stu.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student_final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-02-08_17_53__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-02-08_17_53__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-02-09_17_10__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-02-09_17_10__Changes_.xml" afterDir="false" />
+    <list default="true" id="6082ef62-0cca-4a84-a857-8caa01e3679f" name="Changes" comment="IrasoPazymi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/resulttest/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/resulttest/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_file.json" beforeDir="false" afterPath="$PROJECT_DIR$/student_file.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/resulttest/Playground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/homework/resulttest/Playground.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +60,6 @@
       <recent name="lt.code.academy.homework" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Kompiuteris\Documents\GitHub\WurkHome\home.work.january" />
       <recent name="C:\Users\Kompiuteris\Documents\GitHub\WurkHome\home.work.january\src\main\java\lt\code\academy\homework\files" />
     </key>
   </component>

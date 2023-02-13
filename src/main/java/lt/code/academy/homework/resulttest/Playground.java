@@ -38,7 +38,7 @@ public class Playground {
             JSONObject jsonObject = (JSONObject) obj;
             JSONObject jsonObject2 = (JSONObject) obj2;
 
-            // Skaičiuoju teisingus studento atsakymus
+            // Kelias i teisingus atsakymus ir studento atsakymus
             JSONArray correctAnswers = (JSONArray) jsonObject.get("correctAnswers");
             JSONArray studentAnswers = (JSONArray) jsonObject2.get("studentAnswers");
 
