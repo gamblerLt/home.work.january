@@ -2,7 +2,6 @@ package lt.code.academy.homework.resulttest;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.databind.JsonMappingException;
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import org.json.simple.JSONArray;
@@ -15,9 +14,11 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 
-public class Result {
-    private static final String STUDENT_FILE = "student_file.json";
-    private static final String ALL_ANSWERS_FILE = "allanswers.json";
+public class Playground {
+
+    private static final String STUDENT_FINAL_FILE = "student_final.json";
+    private static final String COR_FILE = "cor.json";
+    private static final String STU_FILE = "stu.json";
     public static void main(String[] args) {
 
         ObjectMapper mapper = new ObjectMapper();
@@ -32,12 +33,14 @@ public class Result {
         student.setSurname("Pavardauskas");
 
         try{
-            Object obj = parser.parse(new FileReader(ALL_ANSWERS_FILE));
+            Object obj = parser.parse(new FileReader(COR_FILE));
+            Object obj2 = parser.parse(new FileReader(STU_FILE));
             JSONObject jsonObject = (JSONObject) obj;
+            JSONObject jsonObject2 = (JSONObject) obj2;
 
             // Skaičiuoju teisingus studento atsakymus
             JSONArray correctAnswers = (JSONArray) jsonObject.get("correctAnswers");
-            JSONArray studentAnswers = (JSONArray) jsonObject.get("studentAnswers");
+            JSONArray studentAnswers = (JSONArray) jsonObject2.get("studentAnswers");
 
 
             System.out.println("Teisingi atsakymai: " + correctAnswers.toString());
@@ -61,8 +64,8 @@ public class Result {
             String textGrade = "  Surinkote procentų: ";
 
 
-            File file = new File(STUDENT_FILE);
-            mapper.writeValue(file, List.of(student ,textScore, score, textGrade, grade));
+            File file = new File(STUDENT_FINAL_FILE);
+            mapper.writeValue(file, List.of(student, jsonObject, jsonObject2 ,textScore, score, textGrade, grade));
             if(!file.exists()) {
                 file.createNewFile();
 
