@@ -1,10 +1,9 @@
 [ {
-  "id" : 1,
-  "studentNumber" : 254,
-  "name" : "Algis",
-  "surname" : "Pavardauskas"
+  "surName" : "Ar",
+  "name" : "Rimas",
+  "id" : "222"
 }, {
-  "correctAnswers" : [ 1, 2, 2, 1, 3, 1, 2, 3, 2, 1 ]
+  "corrAnswers" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
 }, {
-  "studentAnswers" : [ 1, 2, 2, 1, 3, 1, 2, 1, 1, 3 ]
-}, "Jūsų pažymys: ", 7, "  Surinkote procentų: ", 70.0 ]
+  "studentTest" : [ 2, 4, 6, 8, 10, 12, 14, 16, 6, 3 ]
+}, "Studento pažymys: ", 8, "  Atsakyta teisingai procentų : ", 80.0 ]

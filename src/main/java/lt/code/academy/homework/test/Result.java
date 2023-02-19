@@ -1,8 +1,7 @@
-package lt.code.academy.homework.resulttest;
+package lt.code.academy.homework.test;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.databind.JsonMappingException;
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import org.json.simple.JSONArray;
@@ -17,6 +16,8 @@ import java.util.List;
 
 public class Result {
     private static final String STUDENT_FILE = "student_file.json";
+
+    private static final String CORRECT_ANSWERS_FILE_NAME = "correct_answers_file.json";
     private static final String ALL_ANSWERS_FILE = "allanswers.json";
     public static void main(String[] args) {
 
