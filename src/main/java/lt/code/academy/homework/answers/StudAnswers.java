@@ -54,36 +54,31 @@ public class StudAnswers {
         ObjectMapper objectMapper = new ObjectMapper();
         ObjectWriter writer = objectMapper.writer(SerializationFeature.INDENT_OUTPUT);
 
-        Person person = new Person(studentId, name,surName);
+        Person person = new Person(studentId, name, surName);
 
         StudentTest studentTest = new StudentTest();
         studentTest.setStudentTest(studentAnswers);
 
-
         try {
-            File file = new File(STUDENT_ANSWERS_FILE);
             writer.writeValue(new File(STUDENT_ANSWERS_FILE), studentTest);
+            //writer.writeValue(new File(studentId + "_answers.json"), studentTest);
+
             objectMapper.writeValue(new File(STUDENT_FILE), person);
-           // File file2 = new File(STUDENT_FILE);
+            //objectMapper.writeValue(new File(studentId + ".json"), person);
 
-            System.out.println("Sėkmingai įrašyra");
-
+            System.out.println("Sėkmingai įrašyta");
 
         } catch (IOException e) {
             System.out.println("Įrašymo klaida į failą" + STUDENT_ANSWERS_FILE + " " + e.getMessage());
-
-
-
         }
-        //System.out.println(STUDENT_ANSWERS_FILE);
     }
-
 }
+
 class StudentTest {
 
     private List<Integer> studentTest;
 
-    public  List<Integer>getStudentTest() {
+    public List<Integer> getStudentTest() {
         return studentTest;
     }
 
@@ -91,7 +86,7 @@ class StudentTest {
         this.studentTest = studentTest;
     }
 }
-class Student{
+class Student {
     private String studentId;
     private String name;
     private String surName;

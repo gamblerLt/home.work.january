@@ -7,12 +7,10 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 public class CorrectAnswersWriter {
-
     private static final String CORRECT_ANSWERS_FILE_NAME = "correct_answers_file.json";
 
     public static void main(String[] args) {
@@ -30,30 +28,25 @@ public class CorrectAnswersWriter {
         correctAnswers.add(18);
         correctAnswers.add(20);
 
-
-
         CorrAnswer corrAnswer = new CorrAnswer();
         corrAnswer.setCorrAnswers(correctAnswers);
-        //String caname = "correct_Answers";
-
 
         try {
-            //File file = new File(CORRECT_ANSWERS_FILE_NAME);
-            //objectMapper.writeValue(file, List.of( correctAnswers));
+
             objectMapper.writeValue(new File(CORRECT_ANSWERS_FILE_NAME), corrAnswer);
             System.out.println("JSON failas sukurtas");
 
         } catch (JsonGenerationException e) {
             System.out.println("Failo kurimo klaida" + e.getMessage());
         } catch (JsonMappingException e) {
-            System.out.println(e.getMessage());
+            System.out.println("Object meperio problema" + e.getMessage());
         } catch (IOException e) {
             System.out.println("Kita klaida" + e.getMessage());
         }
     }
 }
 
-class CorrAnswer implements Serializable {
+class CorrAnswer {
     private List<Integer> corrAnswers;
 
     public List<Integer> getCorrAnswers() {
